@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #9ecdff; 
+  }
+  
+  .header{
+    min-height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30, 0.7),rgba(4,9,30, 0.7)), url(Images/vecteezy_weather-forecast-icon-set-banner-3d-render-illustration_5411408_415.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}  
+  /* Center the content on the page */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+  
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    color: antiquewhite;
+    margin-bottom: 20px;
+    padding-top: 200px;
+  }
+  
+  /* Style the input field and search button */
+  #locationInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto; 
+    margin-bottom: 10px; 
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #searchButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #64070c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  
+  #searchButton:hover {
+    background-color: #45070a; 
+  }
+  
+  #weatherInfo {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #570000;
+  }
+  
