@@ -9,7 +9,7 @@ body {
   .header{
     min-height: 60vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30, 0.7),rgba(4,9,30, 0.7)), url(Images/vecteezy_weather-forecast-icon-set-banner-3d-render-illustration_5411408_415.jpg);
+    background-image: linear-gradient(rgba(4,9,30, 0.7),rgba(4,9,30, 0.7)), url(./images/background.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
